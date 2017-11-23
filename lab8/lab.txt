@@ -1,0 +1,9 @@
+https://en.wikipedia.org/wiki/Complex_number
+Design a class that will allow you to represent a complex number supplied in cartesian form.
+Allow for:
+Return the conjugate.
+Return the reciprocal.
+Allow for multiplication, addition and subtraction with other complex numbers.
+Return polar form from your cartesian number.
+Find the maximum magnitude given an array of complex numbers.
+Now create an object from your class and test each of the above capabilities. Pick suitable test values.
