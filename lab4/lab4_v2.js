@@ -12,7 +12,7 @@ const people = JSON.parse(fs.readFileSync(__dirname + '/lab4WHODemographic.json'
 
 // all heights
 const heights = people.map(p => p.height);
-console.log(`Heights: ${heights}`)
+console.log(`Heights: ${heights}`);
 
 const heightsInCm = people.map(person => {
     person.height = Math.round(person.height * 100);
